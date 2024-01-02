@@ -3,7 +3,7 @@ pip install python-dotenv
 
 python manage.py tailwind install
 
-python -m pip install -r requirement.txt
+pip freeze > requirements.txt
 
 python manage.py makemigrations --noinput
 python manage.py migrate --noinput
